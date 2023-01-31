@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 94,
+        "name": "Verify user can logout",
+        "description": "",
+        "id": "this-feature-will-cover-all-log-in-page-creation-features;verify-user-can-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 824333000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "launch application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "DBStefDeffClass.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3133702500,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Click Login Link",
+            "match": {
+              "location": "DBStefDeffClass.click_Login_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167639500,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user can input credentials \u003c\"username\"\u003e \u003c\"password\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 29
+                },
+                {
+                  "val": "password",
+                  "offset": 42
+                }
+              ],
+              "location": "DBStefDeffClass.user_can_input_credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3062282600,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "Click Login button",
+            "match": {
+              "location": "DBStefDeffClass.click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3264001600,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Click Logout",
+            "match": {
+              "location": "DBStefDeffClass.click_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74993000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Verify user can logout",
+            "match": {
+              "location": "DBStefDeffClass.verify_user_can_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 93,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will cover all Log in page Creation features",
+    "description": "",
+    "id": "this-feature-will-cover-all-log-in-page-creation-features",
+    "keyword": "Feature",
+    "uri": "DemoBlaze.feature"
+  }
+]
